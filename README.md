@@ -7,7 +7,7 @@
 npx quorum-genesis-tool --consensus qbft --chainID 888 --blockperiod 3 --requestTimeout 10 --epochLength 15000 --difficulty 1 --gasLimit '0x33450' --coinbase '0x0000000000000000000000000000000000000000' --validators 5 --members 0 --bootnodes 0 --outputPath 'artifacts' --maxCodeSize 128 --txnSizeLimit 128 
 ```
 
-##RAFT (2x nodes)
+## RAFT (2x nodes)
 
 ```
 npx quorum-genesis-tool --consensus raft --chainID 1337 --blockperiod 5 --requestTimeout 10 --epochLength 30000 --difficulty 1 --gasLimit '0xFFFFFF' --coinbase '0x0000000000000000000000000000000000000000' --validators 2 --members 0 --bootnodes 0 --outputPath 'artifacts'
